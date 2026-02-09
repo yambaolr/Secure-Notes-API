@@ -25,15 +25,21 @@ Users can register, log in, and perform CRUD operations on their own notes.
 ```bash
 git clone https://github.com/yambaolr/secure-notes-api.git
 cd secure-notes-api
-
+```
 2. Install Dependencies
+```bash
 npm install
+```
 
-3. Create a .env file
+4. Create a .env file
+```bash
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
-
-4. Run the server
+```
+6. Run the server
+```bash
 npm run dev
+```
 
+You can view the live site at: https://secure-notes-api-ufwr.onrender.com/
